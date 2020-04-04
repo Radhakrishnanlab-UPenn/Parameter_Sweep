@@ -66,7 +66,7 @@ class RunSweep:
         sweep.Write_File(self.root, self.tmpfile)
         self.status = "ready"
 
-    def OdeRun(self, copasipath='./CopasiSE'):
+    def OdeRun(self, copasipath='CopasiSE'):
         out = err = ''
         Copasi_Command = copasipath + ' --verbose ' + self.tmpfile
         p = subprocess.Popen(Copasi_Command,shell=True, stdout=subprocess.PIPE,stderr=subprocess.PIPE)

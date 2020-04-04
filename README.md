@@ -56,13 +56,21 @@ This should change the prompt as above.
 (pyenv) $ pip install -r requirements.txt
 ```
 
+6. Download the Copasi executable from the [download page](https://github.com/copasi/COPASI/releases/download/Build-104/COPASI-4.16.104-Linux-64bit.tar.gz)
+and add the path to the executable file `CopasiSE` in
+system PATH environment variable.
+
 6. Make a test run by running the following command
 
 ```
 (pyenv) $ python visualize.py Sweep_Information.json
 ```
 
-7. Deactivate the environment at the end
+If this runs without any error then the system has been
+setup correctly.
+
+7. (Optionally) Deactivate the environment after completing
+run.
 
 ```
 (pyenv) $ deactivate
