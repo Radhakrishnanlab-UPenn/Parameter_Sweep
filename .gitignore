@@ -1,0 +1,10 @@
+figures/
+cpsfiles/
+CopasiSE
+*.png
+*.pdf
+*.pickle
+*.pyc
+*.pyo
+*.json
+.gitignore
