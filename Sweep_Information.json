@@ -1,0 +1,18 @@
+{
+    "sweep_id" : "param_sweep",
+    "sweep_info": 
+    {
+	"Nrg" : 
+	{
+	    "Paramtype" : "Initial Species Values",
+	    "substitute" : {"compartment" : "Cytoplasm","name" :
+			    "Nrg"},
+	    "value" : [5.0, 10.0, 15.0, 25.0, 50.0],
+	    "control" : 1.0
+	}
+    },
+    "Copasifile" : "cpsfiles/ErbB4-JAK2-STAT5_Base.cps",
+    "conv" : 602214179000000,
+    "plot_param" : ["mRNA_cyt_casein-Cytoplasm"],
+    "end_times" : [12,24,48]
+}
